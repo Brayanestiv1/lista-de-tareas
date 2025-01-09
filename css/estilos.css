@@ -1,0 +1,91 @@
+
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #243B4E;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    margin: auto;
+    margin-top: 10vw;
+    text-align: center;
+    width: 30vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 1vw;
+    border: 4px solid black;
+}
+
+div input {
+    width: 22vw;
+    height: 3vh;
+    border: 2.5px solid black;
+    border-radius: 5px;
+
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 7vw;
+    height: 6vh;
+    background-color: #15139F;
+    color: white;
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 22vw;
+    height: 6vh;
+    background-color: #49647A;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.butto {
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 2vw;
+    height: 4vh;
+    margin-top: 0.5vw;
+}
+
+.tareaRealizada {
+    background-color: rgba(73, 100, 122, 0.5);
+}
+
+
+@media (max-width:800px) {
+    .caja {
+        width: 75vw;
+        height: 70vh;
+
+    }
+
+    div input {
+        width: 56vw;
+        height: 3.5vh;
+    }
+
+    .button {
+        width: 100px;
+        height: 7vh;
+    }
+
+    .tarea {
+        width: 56vw;
+    }
+    
+    .butto {
+        width: 3vw;
+    }
+    
+}
